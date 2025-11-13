@@ -1,0 +1,5 @@
+2025-11-07 15:00:11 INFO  com.example.LoggingTest - Info Message — Normal flow information
+2025-11-07 15:00:11 WARN  com.example.LoggingTest - Warning Message — Something might be off
+2025-11-07 15:00:11 ERROR com.example.LoggingTest - Error Message — Something failed
+2025-11-07 15:00:11 FATAL com.example.LoggingTest - Fatal Message — Critical system failure
+2025-11-07 15:00:11 ERROR com.example.LoggingTest - Error occurred: / by zero
