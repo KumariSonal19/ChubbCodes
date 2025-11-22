@@ -1,0 +1,15 @@
+package com.flightapp.webflux.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(HttpStatus.NOT_FOUND)
+public class BookingException extends RuntimeException {
+    public BookingException(String message) {
+        super(message);
+    }
+    
+    public BookingException(String message, Throwable cause) {
+        super(message, cause);
+    }
+}
