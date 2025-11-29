@@ -1,10 +1,10 @@
-package com.telusco;
+package com.quizApp.config;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class QuizApiGatewayApplicationTests {
+class QuizAppConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {
