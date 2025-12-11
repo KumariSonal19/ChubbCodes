@@ -1,0 +1,22 @@
+[{
+    "airlineCode": "IND",
+    "airlineName": "Indigo",
+    "source": "BOM",
+    "destination": "DEL",
+    "departureTime": "2025-12-25T10:00:00+05:30",
+    "arrivalTime": "2025-12-25T12:00:00+05:30",
+    "price": 5000.0,
+    "totalSeats": 100,
+    "aircraft": "A320"
+},
+{
+    "airlineCode": "IND",
+    "airlineName": "Indigo",
+    "source": "BOM",
+    "destination": "DEL",
+    "departureTime": "2025-12-25T10:00:00+05:30",
+    "arrivalTime": "2025-12-25T12:00:00+05:30",
+    "price": 5000.0,
+    "totalSeats": 100,
+    "aircraft": "A320"
+}]
