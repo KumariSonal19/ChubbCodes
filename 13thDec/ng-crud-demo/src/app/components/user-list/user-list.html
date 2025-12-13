@@ -1,0 +1,28 @@
+<div class="container">
+  <h2>User List</h2>
+  
+  <button routerLink="/add" style="margin-bottom: 20px;">
+    + Add New User
+  </button>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>
+          <button (click)="deleteUser(user.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <p *ngIf="users.length === 0">No users found. Add some users to get started!</p>
+</div>
